@@ -19,6 +19,8 @@ python3 -m venv ~/path/to/venv
 source ~/path/to/venv/bin/activate
 flask run
 EOF`" > "~/$1/commencer.sh" 
+echo "====CHECK COMMENCER.SH ====\n"
+cat "~/$1/commencer.sh" 
 
 echo "====CREE BASE HTML ====\n"
 echo "`cat <<EOF
@@ -49,6 +51,8 @@ echo "`cat <<EOF
 </body>
 </html>
 EOF`" > "~/$1/templates/base.html" 
+echo "====CHECK BASE  ====\n"
+cat "~/$1/templates/base.html" 
 
 echo "====CREE HEY HTML ====\n"
 echo "`cat <<EOF
@@ -69,6 +73,8 @@ $3
 <a href="/">welcome</a>
 {% endblock %}
 EOF`" > "~/$1/templates/hey.html" 
+echo "====CHECK HEY  ====\n"
+cat "~/$1/templates/hey.html" 
 echo "`cat <<EOF
 body {
 background:black;
