@@ -179,13 +179,18 @@ pwd
 cp ~/list-repo/scaffold.py /home/$USER/$1
 cp ~/list-repo/hellopython.sh /home/$USER/$1
 cp ~/list-repo/demofile.sh /home/$USER/$1
-alias proj="(cd /home/$USER/$1 && pwd)"
-alias proj1="(cd /home/$USER/$1 && sh demofile.sh)"
-alias proj2="(cd /home/$USER/$1 && git add .)"
-alias proj3="(cd /home/$USER/$1 && git commit -am 'wow dljfghsfj')"
-alias proj4="(cd /home/$USER/$1 && git push origin main)"
-proj
-proj1
-proj2
-proj3
-proj4
+#alias proj="(cd /home/$USER/$1 && pwd)"
+#alias proj1="(cd /home/$USER/$1 && sh demofile.sh)"
+#alias proj2="(cd /home/$USER/$1 && git add .)"
+#alias proj3="(cd /home/$USER/$1 && git commit -am 'wow dljfghsfj')"
+#alias proj4="(cd /home/$USER/$1 && git push origin main)"
+#proj
+#proj1
+#proj2
+#proj3
+#proj4
+(cd /home/$USER/$1 && pwd)
+(cd /home/$USER/$1 && sh demofile.sh)
+(cd /home/$USER/$1 && git add .)
+(cd /home/$USER/$1 && git commit -am 'wow dljfghsfj')
+(cd /home/$USER/$1 && git push origin main)
