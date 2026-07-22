@@ -20,6 +20,7 @@ source ~/path/to/venv/bin/activate
 flask run
 EOF`" > "~/$1/commencer.sh" 
 echo "====CHECK COMMENCER.SH ====\n"
+echo "~/$1/commencer.sh" 
 cat "~/$1/commencer.sh" 
 
 echo "====CREE BASE HTML ====\n"
@@ -52,7 +53,9 @@ echo "`cat <<EOF
 </html>
 EOF`" > "~/$1/templates/base.html" 
 echo "====CHECK BASE  ====\n"
+echo "~/$1/templates/base.html" 
 cat "~/$1/templates/base.html" 
+
 
 echo "====CREE HEY HTML ====\n"
 echo "`cat <<EOF
