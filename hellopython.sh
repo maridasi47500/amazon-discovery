@@ -11,6 +11,12 @@ database.db
 EOF`" > "~/$1/.gitignore" 
 
 mkdir "~/$1/static/css" -p
+echo "`cat <<EOF
+mkdir -p ~/path/to/venv
+python3 -m venv ~/path/to/venv
+source ~/path/to/venv/bin/activate
+flask run
+EOF`" > "~/$1/commencer.sh" 
 
 echo "`cat <<EOF
 <!DOCTYPE html>
