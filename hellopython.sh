@@ -10,7 +10,9 @@ __pycache__/
 database.db
 EOF`" > "~/$1/.gitignore" 
 
+
 mkdir "~/$1/static/css" -p
+echo "====CREE COMMENCER.SH ====\n"
 echo "`cat <<EOF
 mkdir -p ~/path/to/venv
 python3 -m venv ~/path/to/venv
@@ -18,6 +20,7 @@ source ~/path/to/venv/bin/activate
 flask run
 EOF`" > "~/$1/commencer.sh" 
 
+echo "====CREE BASE HTML ====\n"
 echo "`cat <<EOF
 <!DOCTYPE html>
 <html>
@@ -47,6 +50,7 @@ echo "`cat <<EOF
 </html>
 EOF`" > "~/$1/templates/base.html" 
 
+echo "====CREE HEY HTML ====\n"
 echo "`cat <<EOF
 {% extends 'base.html' %}
 
