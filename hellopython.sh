@@ -1,3 +1,4 @@
+#!/bin/bash
 export GITHUBUSERNAME="maridasi47500"
 mkdir -p "~/$1/templates" 
 echo "&1 $1 $2 $3 $4"
