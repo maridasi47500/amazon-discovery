@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: Automatic ou non automatic searching
+{% endblock %}
+{% block content %}
+<h1># amazon-discovery</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : recommendation de lIA ou recherche manuelle de vidéos, posts , enregistrements, ou photos
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
