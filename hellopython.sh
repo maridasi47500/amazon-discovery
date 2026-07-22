@@ -4,7 +4,7 @@ mkdir -p "~/$1/templates"
 echo "&1 $1 $2 $3 $4"
 pwd
 echo "git clone git@github.com:$GITHUBUSERNAME/$1.git"
-$(git clone "git@github.com:$GITHUBUSERNAME/$1.git")
+$(cd ~ && git clone "git@github.com:$GITHUBUSERNAME/$1.git")
 echo "__pycache__/\ndatabase.db" > "~/$1/.gitignore" 
 echo "`cat <<EOF
 __pycache__/
