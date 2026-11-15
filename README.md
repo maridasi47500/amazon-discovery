@@ -1,5 +1,29 @@
 # amazon-discovery
 
+| il y a  | oui non/quoi |
+| --- | --- |
+| boule de crystal  | non  |
+| art of coding  | non  |
+| fake social network | non |
+| timestamped items | non |
+| speech to text | non | 
+| text to speech | non |
+| traducteur | non |
+| langue etrangere | non |
+| un script à lancer | non |
+| showcase website d'un metier | non |
+| application d'une entreprise | non |
+| langage musical/lilypond / partitions | non |
+| le temps reel est important | non |
+| gps | non |
+| images creees | non |
+| libraries python/gem rails speciales | oui |
+| sessions de entrainement | non |
+| requetes sql | oui |
+
+
+
+
 amazon digital content ai discovery, 
 - personalize feeds
 - you might like
@@ -10,7 +34,7 @@ amazon digital content ai discovery,
 *  recommendation engine
 
 ### not AI
-* manual sorting
+* manual sorting, asc the desc
 * organix experience
 * search manually
 * literal search
