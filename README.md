@@ -44,6 +44,8 @@ amazon digital content ai discovery,
 
 - il y a un content discovery sur youtube , instagram, twitter, ou tu peux 
 decouvrir de la musique , des artistes, des photos ou posts
+- content discovery ai te fait decouvrir un artiste special , tu cherche ce que tu veux avec content discovery 
+not ai
 - mais il y a des bibliotheques python insanity, insanity-check ou obscenity
 - tu dois faire le sport ou les projets ensemble
 -   
