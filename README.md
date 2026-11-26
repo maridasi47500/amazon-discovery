@@ -40,3 +40,10 @@ amazon digital content ai discovery,
 * literal search
 * date ascending order
 * authentic hashtags
+
+
+- il y a un content discovery sur youtube , instagram, twitter, ou tu peux 
+decouvrir de la musique , des artistes, des photos ou posts
+- mais il y a des bibliotheques python insanity, insanity-check ou obscenity
+- tu dois faire le sport ou les projets ensemble
+-   
